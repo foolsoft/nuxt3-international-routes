@@ -14,3 +14,16 @@ Add files into you project ;)
 
 3) Use <LocaleLink> component for links creating
 
+4) Add DOMAIN constatnt in nuxt public runtime config
+
+```
+....
+
+runtimeConfig: {
+    public: {
+        DOMAIN: "https://my.site", //used in "plugins/routes/path" helper function with absolute parameter
+    }
+}
+
+...
+```
