@@ -14,7 +14,7 @@ Add files into you project ;)
 
 3) Use <LocaleLink> component for links creating
 
-4) Add DOMAIN constatnt in nuxt public runtime config
+4) Add "DOMAIN" constant in nuxt public runtime config
 
 ```
 ....
