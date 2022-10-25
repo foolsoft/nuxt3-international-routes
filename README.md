@@ -12,7 +12,22 @@ Add files into you project ;)
 
 2) Create routes in app/config/routes.ts
 
-3) Use <LocaleLink> component for links creating
+3) Use "LocaleLink" component for links creating by route name
+
+```
+<LocaleLink :route-name="$RouteNames.SomeRoute"
+            :route-params="{ param1: 'foo' }">Link to same locale</LocaleLink>
+            
+<LocaleLink :locale="ru"
+            :route-name="$RouteNames.SomeRoute"
+            :route-params="{ param1: 'foo' }">Link to RU locale</LocaleLink>
+```
+
+or by url string
+
+```
+<LocaleLink :route-string="/en/">Main page on EN</LocaleLink>
+```
 
 4) Add "DOMAIN" constant in nuxt public runtime config
 
