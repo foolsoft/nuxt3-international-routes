@@ -1,5 +1,11 @@
 # nuxt3-international-routes
-Simple module for creating international routes in Nuxt3
+Simple module for creating international routes in Nuxt3. Use module if you wanna routing like:
+
+```
+/en/page1     |
+/es/pagina1   |=> /pages/page.vue   
+/ru/page1     |
+```
 
 Tested on all nuxt3 release candidate. Rerun application after each routes config change.
 
